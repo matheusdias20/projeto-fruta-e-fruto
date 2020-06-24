@@ -1,0 +1,62 @@
+html{
+    overflow-x:hidden;
+}
+
+.logo{
+    font-family:'Pacifico', cursive;
+    color: darkred;
+    font-size: 18px;
+}
+
+.imagem-carrosel-um {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.imagem-carrosel-dois {
+    object-fit: cover;
+    height: 400px;
+} 
+
+.fonte-titulo{
+    font-family:'Pacifico', cursive;
+}
+
+.receita{
+    font-family:'Pacifico', cursive;
+    color: darkred;
+}
+
+.botao-enviar,
+.botao-receita{
+    background-color: darkred;
+    color: white;
+}
+
+
+.borda-receita{
+    border-color: darkred;
+}
+
+.card-posicao{
+    object-fit: cover;
+    /* object-position: 0 80%; */
+    height: 200px;
+
+
+}
+
+
+.botao-enviar:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+.fotos{
+    height: 250px;
+    width: 250px;
+    border-color: darkred;
+}
+
